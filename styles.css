@@ -319,10 +319,20 @@ html, body{
 }
 
 .page2 .tiles .tile .data .text{
-    font-size: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
     line-height: 31px;
 }
 
+@media screen and (max-width:720px){
+    .page2 .heading .text{
+        font-size: 7vw;
+    }
+    .page2 .heading .line{
+        width: 30vw;
+    }
+}
 
 
 
