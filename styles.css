@@ -24,6 +24,13 @@ html, body{
     background-color: antiquewhite;
 }
 
+.page2, .page3, .page4, .lastpage
+{
+    animation: fadeout 2s forwards;
+    animation-timeline: scroll();
+    animation-name: transparency;
+}
+
 
 
 
@@ -40,10 +47,10 @@ html, body{
 }
 @keyframes transparency {
     from{
-        opacity: 0.2;
+        opacity: 1;
     }
     to{
-        opacity: 1;
+        opacity: 0;
     }
     
 }
